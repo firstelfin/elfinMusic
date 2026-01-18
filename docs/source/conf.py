@@ -22,6 +22,10 @@ copyright = '2026, elfin'
 author = 'elfin'
 release = 'v1.0'
 
+# 创建_static目录（如果不存在）
+static_dir = Path(__file__).parent / '_static'
+static_dir.mkdir(exist_ok=True)
+
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
