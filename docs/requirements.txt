@@ -6,4 +6,4 @@ sphinxcontrib.mermaid
 sphinxcontrib-htmlhelp
 sphinxcontrib-serializinghtml
 sphinx-markdown-tables
-abcSphinx
+abcsphinx>=1.3
